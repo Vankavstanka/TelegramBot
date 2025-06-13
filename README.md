@@ -9,12 +9,12 @@ Aiogram 3 + FastAPI + SQLite (async).
 ## терминал Windows power shell
 
 # server
-cd server
-python -m venv venv
-#Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned - если ps1 блокируется
-.\venv\Scripts\Activate.ps1 
-pip install -r requirements.txt
-uvicorn main:app --reload
+- cd server
+- python -m venv venv
+- #Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned - если ps1 блокируется
+- .\venv\Scripts\Activate.ps1 
+- pip install -r requirements.txt
+- uvicorn main:app --reload
 
 # bot
 cd ../bot
