@@ -1,0 +1,13 @@
+# .gitignore
+# venv
+venv/
+# Python мусор
+__pycache__/
+*.py[cod]
+# IDE
+.vscode/
+.idea/
+# OS
+.DS_Store
+# конфиденциальное
+.env
