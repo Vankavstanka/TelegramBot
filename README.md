@@ -19,6 +19,7 @@ Aiogram 3 + FastAPI + SQLite (async).
 - cd ../bot
 - python -m venv venv
 - #Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned - если ps1 блокируется
+- .\venv\Scripts\Activate.ps1
 - pip install -r requirements.txt
 - cp .env.example .env          # вставьте свой BOT_TOKEN
 - python main.py
